@@ -1,0 +1,137 @@
+
+html {
+   background-color: #f2f2f2;
+   font-size: 10px;
+   height: 500rem;
+}
+
+a {
+   text-decoration: none;
+}
+
+h1 {
+   font-family: 'Pridi', serif;
+}
+
+h2 {
+   font-family: 'Tomorrow', sans-serif;
+}
+
+h3 {
+   font-family: 'Tomorrow', sans-serif;
+}
+
+a {
+   font-family: 'Tomorrow', sans-serif;
+   font-size: 2.5rem;
+}
+
+
+/* JUMBOTRON */
+.jumbotron {
+   margin-top: 0;
+}
+
+
+/* NAVIGATION */
+nav {
+   height: 90vh;
+   position: fixed;
+   border: #011826 1px solid;
+   
+}
+
+nav .nav-box {
+   height: 100%;
+   padding: 0.5rem;
+}
+
+nav .nav-box .nav-box-rows {
+   height: 100%;
+}
+
+nav .nav-box .color-2 {
+   /* height: 100%; */
+}
+
+nav img {
+   transform: rotate(90deg);
+   height: 4rem;
+}
+
+nav a {
+   color: #011826;
+   height: 33.33%;
+   writing-mode: vertical-lr;
+}
+
+.color-1, .color-2,  .color-3,  .color-4, .color-5 {
+   writing-mode: vertical-lr;
+   padding: 0.5rem;
+   height: 20%;
+}
+
+
+.color-1 {
+   background-color: #F26389;
+   color: #f2f2f2;
+}
+
+.color-2 {
+   background-color: #011826;
+   color: #f2f2f2;
+}
+
+.color-3 {
+   background-color: #859ca6;
+   color: #011826;
+}
+
+.color-4 {
+   background-color: #73cfd9;
+   color: #011826;
+}
+
+.color-5 {
+   background-color: #F2f2f2;
+   color: #011826;
+}
+
+
+
+/* MAIN */
+section {
+   height: 30rem;
+}
+
+/* COLORS
+*******************************************************/
+/* Color Theme Swatches in Hex */
+.Knogin-1-hex { color: #F26389; }
+.Knogin-2-hex { color: #011826; }
+.Knogin-3-hex { color: #859CA6; }
+.Knogin-4-hex { color: #73CFD9; }
+.Knogin-5-hex { color: #F2F2F2; }
+
+/* Color Theme Swatches in RGBA */
+.Knogin-1-rgba { color: rgba(242, 99, 137, 1); }
+.Knogin-2-rgba { color: rgba(0, 23, 38, 1); }
+.Knogin-3-rgba { color: rgba(132, 156, 165, 1); }
+.Knogin-4-rgba { color: rgba(114, 206, 216, 1); }
+.Knogin-5-rgba { color: rgba(242, 242, 242, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Knogin-1-hsla { color: hsla(343, 84, 66, 1); }
+.Knogin-2-hsla { color: hsla(202, 96, 7, 1); }
+.Knogin-3-hsla { color: hsla(196, 15, 58, 1); }
+.Knogin-4-hsla { color: hsla(185, 57, 65, 1); }
+.Knogin-5-hsla { color: hsla(0, 0, 95, 1); }
+
+
+
+
+/* COLORS
+*******************************************************/
+font-family: 'Pridi', serif;
+font-family: 'Tomorrow', sans-serif;
+
