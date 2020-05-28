@@ -1,6 +1,10 @@
+* {
+   box-sizing: border-box;
+}
 
 html {
-   background-color: #f2f2f2;
+   background-color: #859ca6;
+   background: linear-gradient(165deg, #f26389, #73cfd9, #f26389);
    font-size: 10px;
    height: 500rem;
 }
@@ -11,24 +15,29 @@ a {
 
 h1 {
    font-family: 'Pridi', serif;
+   color: #011826;
 }
 
 h2 {
    font-family: 'Tomorrow', sans-serif;
+   color: #F26389;
 }
 
 h3 {
    font-family: 'Tomorrow', sans-serif;
+   letter-spacing: 2px;
+   word-spacing: 6px;
+   color: #73CFD9;
 }
 
 a {
    font-family: 'Tomorrow', sans-serif;
-   font-size: 1.5rem;
+   font-size: 1.75rem;
 }
 
 p {
    font-family: 'Tomorrow', sans-serif;
-   font-size: 1.25rem;
+   font-size: 1.2rem;
    text-align: center;
    height: 100%;
    padding: 0;
@@ -37,18 +46,108 @@ p {
 }
 
 
-/* JUMBOTRON */
-.jumbotron {
-   margin-top: 0;
+
+/* NAVIGATION - GRID */
+nav {
+   position: fixed;
+   margin: 1rem;
+}
+
+nav .nav-container {
+   width: 8rem;
+   height: 96vh;
+   border: #011826 solid 1px;
+   display: grid;
+   grid-template-columns: 50% 50%;
+   grid-template-rows: 13rem auto;
+   grid-gap: 0.5rem;
+   align-items: center;
+   padding: 0.5rem;
+}
+
+nav .nav-container .logo {
+   grid-area: 1 / 1 / 2 / 3;
+   transform: rotate(90deg);
+   width: 12rem;
+   margin-left: -2.5rem;
+}
+
+nav .nav-container .nav-box-colors {
+   height: 100%;
+   display: grid;
+   grid-template-rows: repeat(5, 1fr);
+   grid-gap: 0.5rem;
+   justify-items: center;
+   align-items: center;
+}
+
+.color-1, .color-2,  .color-3,  .color-4, .color-5 {
+   writing-mode: vertical-lr;
+   padding: 0.5rem;
+   height: 100%;
+   width: 100%;
+}
+
+.color-1 {
+   background-color: #F26389;
+   color: #f2f2f2;
+}
+
+.color-2 {
+   background-color: #011826;
+   color: #f2f2f2;
+}
+
+.color-3 {
+   background-color: #859ca6;
+   color: #011826;
+}
+
+.color-4 {
+   background-color: #73cfd9;
+   color: #011826;
+}
+
+.color-5 {
+   background-color: #F2f2f2;
+   color: #011826;
+}
+
+nav .nav-container p {
+   writing-mode: vertical-lr;
+   padding-left: 0.7rem;
+}
+
+nav .nav-container .nav-box-menu {
+   height: 100%;
+   display: grid;
+   grid-template-rows: repeat(3, 1fr);
+   grid-gap: 0.5rem;
+   justify-items: center;
+   align-items: center;
+   margin-right: 0.5rem;
+}
+
+nav .nav-container .nav-box-menu a {
+   background-color: #f2f2f2;
+   text-decoration: none;
+   writing-mode: vertical-lr;
+   text-align: center;
+   color: #011826;
+   height: 100%;
+   width: 100%;
+   padding-left: 0.8rem;
 }
 
 
-/* NAVIGATION */
-nav {
-   height: 90vh;
-   position: fixed;
-   border: #011826 1px solid;
+
    
+   /* NAVIGATION */
+   /* nav {
+      height: 90vh;
+      position: fixed;
+      border: #011826 1px solid;
+      
 }
 
 nav .nav-box {
@@ -56,27 +155,19 @@ nav .nav-box {
    padding: 0.5rem;
 }
 
-nav .nav-box .nav-box-rows {
-   height: 100%;
-}
-
-nav .nav-box .color-2 {
-   /* height: 100%; */
-}
-
 nav .logo {
-   height: 6rem;
+   height: auto;
    width: 100%;
+   margin: 0 auto;
    padding: 0.5em;
-
-   border: yellow 2px solid;
 }
 
 nav img {
    height: 4rem;
-   /* width: 100%; */
+}
 
-   border: red solid 2px;
+nav .nav-box .nav-box-rows {
+   height: 100%;
 }
 
 nav a {
@@ -115,14 +206,37 @@ nav a {
 .color-5 {
    background-color: #F2f2f2;
    color: #011826;
-}
+} */
 
 
 
 /* MAIN */
+main h1 {
+   font-size: 8rem;
+   padding: 2rem;
+   border: #011826 solid 1px;
+}
+
+main h2 {
+   font-size: 3rem;
+   background-color: #011826;
+   padding: 2rem;
+}
+
+main h3 {
+   background-color: #011826;
+   padding: 2rem;
+}
+
 section {
    height: 30rem;
 }
+
+
+main img {
+   width: 30rem;
+}
+
 
 /* COLORS
 *******************************************************/
@@ -152,6 +266,6 @@ section {
 
 /* COLORS
 *******************************************************/
-font-family: 'Pridi', serif;
-font-family: 'Tomorrow', sans-serif;
+/* font-family: 'Pridi', serif;
+font-family: 'Tomorrow', sans-serif; */
 
